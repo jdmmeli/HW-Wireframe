@@ -13,7 +13,7 @@ body {
 header {
     width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
     margin: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -23,7 +23,7 @@ nav {
     width: 100%;
     text-align: center;
     margin: 20px;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -35,10 +35,11 @@ nav {
 article {
     color: #ebebeb;
     background: #777;
-    text-align: center;
-    margin: 20px;
     padding: 20px;
-    
+    text-align: center;
+    margin-top: 40px;;
+    padding: 10px;
+    padding-top: 30px;
 }
 
 
@@ -51,7 +52,7 @@ section {
     height: 247px;
     padding-bottom: 60px;
     margin-top: 0px;
-    padding-top: 30px;
+    padding-top: 50px;
     
 }
 
@@ -59,14 +60,14 @@ footer {
     clear: both;
     text-align: center;
     margin: 20px;
-    padding: 20px;
     width: 100%;
+    padding: 40px;
 }
 
 .heading {
     color: #777;
     background: #ebebeb;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
 }
 
@@ -74,11 +75,16 @@ aside {
     text-align: center;
     margin: 20px;
     margin-left: 10px;
+    padding-left: 50px;
     padding: 20px;
     height: 225px;
     width: 344px;
-    overflow: auto;
+    overflow: hidden;
     height: 247px;
     padding-bottom: 60px;
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+div {
+    margin-top: 20px;
 }
