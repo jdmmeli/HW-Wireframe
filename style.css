@@ -53,6 +53,8 @@ section {
     margin-top: 0px;
     padding-top: 50px;
     float: left; 
+    position: relative;
+    top: 7px;
     
 }
 
@@ -62,6 +64,8 @@ footer {
     margin: 20px;
     width: 100%;
     padding: 40px;
+    position: relative;
+    bottom: 370px;
 }
 
 .heading {
@@ -72,12 +76,14 @@ footer {
 }
 
 aside {
+    position: relative;
+    left: 555px;
+    bottom: 370px;
     text-align: center;
-    margin-left: 10px;
-    padding-left: 50px;
-    padding: 20px;
+    margin-left: 20px;
+    padding: 15px;
     height: 225px;
-    width: 344px;
+    width: 455px;
     overflow: auto;
     height: 247px;
     padding-bottom: 60px;
