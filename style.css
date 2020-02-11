@@ -45,7 +45,6 @@ article {
 
 section {
     width: 495px;
-    float: left;
     padding: 20px;
     margin: 20px;
     text-align: center;
@@ -53,6 +52,7 @@ section {
     padding-bottom: 60px;
     margin-top: 0px;
     padding-top: 50px;
+    float: left; 
     
 }
 
@@ -73,18 +73,23 @@ footer {
 
 aside {
     text-align: center;
-    margin: 20px;
     margin-left: 10px;
     padding-left: 50px;
     padding: 20px;
     height: 225px;
     width: 344px;
-    overflow: hidden;
+    overflow: auto;
     height: 247px;
     padding-bottom: 60px;
     padding-top: 50px;
+    margin-top: 20px;
+
+
 }
 
 div {
     margin-top: 20px;
 }
+
+
+
